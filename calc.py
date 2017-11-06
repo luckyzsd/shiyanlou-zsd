@@ -28,6 +28,7 @@ try:
         tax=taxsal*30%-2755
     elif taxsal<=Txl6 and taxsal>Txl5:
         tax=taxsal*35%-5505
+    print(format(tax,".2f"))
     else:
         tax=taxsal*45%-13505
 except:
