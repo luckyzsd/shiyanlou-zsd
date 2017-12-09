@@ -7,9 +7,10 @@ def strcount(str):
         c=chardict.get(char)
         print(c)
         if c is None:
-            chardict[c]=1
+            chardict[char]=1
         else:
-            chardict[c]+=1
+            chardict[char]+=1
+            #print('c='+str(c))
     print(chardict)
 
 if __name__=='__main__':
