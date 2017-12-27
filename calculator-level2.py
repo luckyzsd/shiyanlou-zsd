@@ -31,11 +31,13 @@ def calc_income_tax(income):
   realincome=income-insurancemny
   taxableincome=realincome-INCOME_TAX_ST
   if taxableincome<0.0:
-    return '0.00','{:.2f}'.format(realincome)
+    #return '0.00','{:.2f}'.format(realincome)
+    return '{:.2f}'.format(realincome)
   for item in INCOME_TAX_TB:
     if taxableincome>item.start_point:
       tax=taxableincome*item.tax_rate-item.quick_subtractor
-      return '{:.2f}'.format(tax),'{:.2f}'.format(realincome-tax)
+      #return '{:.2f}'.format(tax),'{:.2f}'.format(realincome-tax)
+      return '{:.2f}'.format(realincome-tax)
 
 def main():
     for item in sys.argv[1:]:
