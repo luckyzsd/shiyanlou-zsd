@@ -45,7 +45,7 @@ def main():
         except ValueError:
             print('Parameter Error')
         remain=calc_income_tax(income)
-        print('{}:{}'.format(id,remain)
+        print('{}:{}'.format(id,remain))
 
 
 if __name__=='__main__':
