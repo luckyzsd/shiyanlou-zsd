@@ -11,9 +11,9 @@ INCOME_TAX_TB=[
     IncomeTaxItem(80000,0.45,13505),
     IncomeTaxItem(55000,0.35,5505),
     IncomeTaxItem(35000,0.3,2755),
-    IncomeTaxItem(9000,0.25,1005)
-    IncomeTaxItem(4500,0.2,555)
-    IncomeTaxItem(1500,0.1,105)
+    IncomeTaxItem(9000,0.25,1005),
+    IncomeTaxItem(4500,0.2,555),
+    IncomeTaxItem(1500,0.1,105),
     IncomeTaxItem(0,0.03,0)
 ]
 
